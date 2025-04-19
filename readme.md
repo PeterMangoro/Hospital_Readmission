@@ -64,12 +64,23 @@ You can use PgAdmin or psql to run the SQL.
 
 ### 5. Configure Connection
 Update connect_pg.py with your local PostgreSQL credentials:
-
+Copy and Paste the connect_pg_sample to a new connect_pg.py file
+setup the environment to your credentials
 ```
-# connect_pg.py
+#create connect_pg.py
+
 from sqlalchemy import create_engine
 
-engine = create_engine("postgresql+psycopg2://postgres:your_password@localhost:5432/hospital_data")
+# Replace with your actual PostgreSQL credentials
+username = 'postgres'
+password = 'your_password'
+host = 'localhost'
+port = '5432'
+database = 'your_database_name'
+
+# SQLAlchemy engine
+engine = create_engine(f'postgresql+psycopg2://{username}:{password}@{host}:{port}/{database}')
+
 ```
 ### 6. Run ETL & Analysis
 
