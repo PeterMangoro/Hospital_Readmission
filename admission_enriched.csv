@@ -1,0 +1,39 @@
+admission_id,patient_id,patient_name,gender,age,admission_date,discharge_date,length_of_stay,readmitted,doctor_id,doctor_name,specialty,diagnosis_code,description
+1,1,Stephanie Carter,Female,37.0,2023-01-10,2023-01-15,5,False,3.0,Angela Cohen,Oncology,C50,Great in tell approach.
+1,1,Stephanie Carter,Female,37.0,2023-01-10,2023-01-15,5,False,3.0,Angela Cohen,Oncology,C50,Sense ready require human public.
+6,6,Jacob Reid,Male,82.0,2023-04-01,2023-04-08,7,False,14.0,Reginald Robinson,Pulmonology,F32,Eat couple.
+6,6,Jacob Reid,Male,82.0,2023-04-01,2023-04-08,7,False,14.0,Reginald Robinson,Pulmonology,I21,Office drug list imagine behind.
+6,6,Jacob Reid,Male,82.0,2023-04-01,2023-04-08,7,False,14.0,Reginald Robinson,Pulmonology,C50,Truth out major born guy.
+16,16,Dylan Baker,Male,43.0,2023-07-18,2023-07-24,6,True,7.0,Jason Hahn,Endocrinology,,
+2,2,Justin Howard,Male,58.0,2023-02-05,2023-02-10,5,True,6.0,Leslie Adams,Pulmonology,,
+1,1,Stephanie Carter,Female,37.0,2023-01-10,2023-01-15,5,False,13.0,Brenda Hurst,Cardiology,C50,Great in tell approach.
+1,1,Stephanie Carter,Female,37.0,2023-01-10,2023-01-15,5,False,13.0,Brenda Hurst,Cardiology,C50,Sense ready require human public.
+15,15,Mark Keller,Male,63.0,2023-07-10,2023-07-15,5,False,10.0,Robin Ellis,Cardiology,F32,Campaign little near.
+18,18,James Robinson,Male,64.0,2023-08-10,2023-08-15,5,True,16.0,Christopher Williams,Neurology,J45,Again network open according.
+7,7,Jonathan Williams,Male,48.0,2023-04-12,2023-04-17,5,True,10.0,Robin Ellis,Cardiology,,
+2,2,Justin Howard,Male,58.0,2023-02-05,2023-02-10,5,True,19.0,Bryan James,Oncology,,
+11,11,Sarah Ward,Female,60.0,2023-06-01,2023-06-06,5,False,2.0,Veronica Bowman,Endocrinology,I10,Arrive attack all form method.
+19,19,Erica Fox,Female,69.0,2023-08-18,2023-08-23,5,False,16.0,Christopher Williams,Neurology,,
+2,2,Justin Howard,Male,58.0,2023-02-05,2023-02-10,5,True,17.0,Daniel Burton,Pulmonology,,
+6,6,Jacob Reid,Male,82.0,2023-04-01,2023-04-08,7,False,3.0,Angela Cohen,Oncology,F32,Eat couple.
+6,6,Jacob Reid,Male,82.0,2023-04-01,2023-04-08,7,False,3.0,Angela Cohen,Oncology,I21,Office drug list imagine behind.
+6,6,Jacob Reid,Male,82.0,2023-04-01,2023-04-08,7,False,3.0,Angela Cohen,Oncology,C50,Truth out major born guy.
+8,8,Karen Phillips,Female,43.0,2023-04-25,2023-05-01,6,False,13.0,Brenda Hurst,Cardiology,,
+19,19,Erica Fox,Female,69.0,2023-08-18,2023-08-23,5,False,8.0,Nancy Edwards,Endocrinology,,
+20,20,Joshua White,Male,74.0,2023-09-01,2023-09-07,6,True,3.0,Angela Cohen,Oncology,,
+19,19,Erica Fox,Female,69.0,2023-08-18,2023-08-23,5,False,19.0,Bryan James,Oncology,,
+9,9,Jeremy Ford,Male,54.0,2023-05-10,2023-05-16,6,True,7.0,Jason Hahn,Endocrinology,F32,Art rock.
+9,9,Jeremy Ford,Male,54.0,2023-05-10,2023-05-16,6,True,7.0,Jason Hahn,Endocrinology,F32,Month parent who.
+8,8,Karen Phillips,Female,43.0,2023-04-25,2023-05-01,6,False,9.0,Diana Foster,Pulmonology,,
+5,5,Wesley Greer,Male,77.0,2023-03-15,2023-03-20,5,False,10.0,Robin Ellis,Cardiology,,
+17,17,Joseph Klein,Male,67.0,2023-08-01,2023-08-06,5,False,,,,I21,Will seven medical.
+10,10,Ashley Allen,Female,44.0,2023-05-20,2023-05-26,6,False,,,,C50,Kitchen technology.
+10,10,Ashley Allen,Female,44.0,2023-05-20,2023-05-26,6,False,,,,I21,Protect Democrat car.
+12,12,Matthew Reed,Male,51.0,2023-06-12,2023-06-17,5,True,,,,,
+13,13,Dustin Walker,Male,68.0,2023-06-22,2023-06-27,5,False,,,,F32,Within mouth.
+4,4,Kimberly Boyd,Female,30.0,2023-03-05,2023-03-10,5,True,,,,C50,Cell contain leg themselves.
+4,4,Kimberly Boyd,Female,30.0,2023-03-05,2023-03-10,5,True,,,,C50,Just military building different.
+4,4,Kimberly Boyd,Female,30.0,2023-03-05,2023-03-10,5,True,,,,E11,Participant check several much.
+3,3,Julie Gonzales,Female,77.0,2023-02-20,2023-02-28,8,False,,,,I21,Beat magazine.
+3,3,Julie Gonzales,Female,77.0,2023-02-20,2023-02-28,8,False,,,,I10,That fear.
+14,14,Michele Martin,Female,54.0,2023-07-01,2023-07-05,4,True,,,,F32,Dream drive note.

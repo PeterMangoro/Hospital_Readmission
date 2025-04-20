@@ -48,6 +48,7 @@ cd hospital-readmission-etl
 ```
 
 ### 2. Install dependencies
+Make sure you have python installed before u run the following steps
 ```
 python -m pip install -r requirements.txt
 ```
@@ -83,5 +84,6 @@ engine = create_engine(f'postgresql+psycopg2://{username}:{password}@{host}:{por
 
 ```
 ### 6. Run ETL & Analysis
-
+```
 python explore_admissions.py
+```
