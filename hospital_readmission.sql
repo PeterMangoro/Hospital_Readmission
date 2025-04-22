@@ -220,7 +220,7 @@ INSERT INTO admission_doctors (admission_id, doctor_id, role) VALUES
 -- Basic Exploration Queries
 -- Readmission rate
 select count (*) filter (where readmitted) * 100.0 / count (*) 
-    as readmission_rate_percentage from admissions
+    as readmission_rate_percentage from admissions;
 
 
 -- list all patient and readmission info
@@ -237,6 +237,48 @@ select
 from patients p
 join admissions a on a.patient_id = p.patient_id
 join diagnoses d on a.admission_id  = d.admission_id
-order by a.admission_date
+order by a.admission_date;
 
-select * from patient_admission_summary
+select * from patient_admission_summary;
+
+
+-- creating dimensional models
+CREATE TABLE dim_patient (
+    patient_id INT PRIMARY KEY,
+    gender VARCHAR(10),
+    date_of_birth DATE,
+    city VARCHAR(100),
+    country VARCHAR(100)
+);
+
+CREATE TABLE dim_doctor (
+    doctor_id INT PRIMARY KEY,
+    name VARCHAR(100),
+    specialty VARCHAR(100),
+    department VARCHAR(100)
+);
+
+
+CREATE TABLE dim_diagnosis (
+    diagnosis_code VARCHAR(10) PRIMARY KEY,
+    description TEXT,
+    category VARCHAR(100)
+);
+
+CREATE TABLE dim_date (
+    date_id DATE PRIMARY KEY,
+    year INT,
+    month INT,
+    day INT,
+    weekday VARCHAR(10)
+);
+
+CREATE TABLE fact_admissions (
+    admission_id INT PRIMARY KEY,
+    patient_id INT REFERENCES dim_patient(patient_id),
+    doctor_id INT REFERENCES dim_doctor(doctor_id),
+    diagnosis_code VARCHAR(10) REFERENCES dim_diagnosis(diagnosis_code),
+    date_id DATE REFERENCES dim_date(date_id),
+    length_of_stay INT,
+    readmitted BOOLEAN
+);
