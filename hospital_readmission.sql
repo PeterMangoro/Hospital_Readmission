@@ -282,3 +282,8 @@ CREATE TABLE fact_admissions (
     length_of_stay INT,
     readmitted BOOLEAN
 );
+
+ALTER TABLE fact_admissions
+ADD CONSTRAINT pk_fact_admissions PRIMARY KEY (admission_id);
+
+
