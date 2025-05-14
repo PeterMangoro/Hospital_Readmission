@@ -239,11 +239,8 @@ pytest
 
 ## 🤝 Contributing
 
-(Optional: Add guidelines for contributing if this is an open project.)
-
 ---
 
 ## 📜 License
 
-(Optional: Specify the project license, e.g., MIT, Apache 2.0.)
 
