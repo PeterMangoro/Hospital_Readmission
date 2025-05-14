@@ -33,7 +33,7 @@ Hospital_Readmission/
 │   │   └── transformed_admissions.csv
 │   └── features.csv            # Engineered features for modeling
 ├── docs/                       # Project documentation
-│   ├── Hospital_Readmission.docx # Original project documentation (if any)
+│   ├── Hospital_Readmission.docx # Original 
 │   ├── data_dictionary.md      # Details of data schemas and fields
 │   └── project_overview.md     # In-depth project description
 ├── notebooks/                  # Jupyter notebooks for analysis
