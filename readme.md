@@ -152,7 +152,7 @@ pip install -r requirements.txt
 -   Rename `connect_pg.py.template` to `connect_pg.py`.
 -   Open `connect_pg.py` and update the database connection details (username, password, host, port, database name). **It is highly recommended to use environment variables for sensitive credentials instead of hardcoding them.**
 
-    Example using `python-dotenv` (add `python-dotenv` to `requirements.txt`):
+    Example using `python-dotenv` :
 
     Create a `.env` file in the project root with your credentials:
     ```env
